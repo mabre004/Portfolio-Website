@@ -41,10 +41,11 @@ header {
     background: rgba(88, 88, 88, 0.67);
     padding: 15px 0;
     font-family: 'Lato', 'Arial', 'sans-serif';
+    transition: all 0.3s ease
 }
 
 .navbar .sticky{
-    padding: 15px 0;
+    padding: 1px 0;
     background: crimson;
 }
 
@@ -81,7 +82,7 @@ header {
 }
 
 .menu-btn{
-    color: rgba(46, 46, 46, 0.9);
+    color: #000;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -95,9 +96,47 @@ header {
     background-position: center;
     height: 100vh;
     color: #fff;
-
+    min-height: 500px;
+    display: flex;
+    font-family: 'Lato', 'Arial', 'sans-serif';
 }
 
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+    font-size: 25px;
+}
+
+.home .home-content .text-2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+     font-size: 35px;
+     margin: 5px 0;
+}
+
+.home .home-content a{
+    display: inline-block;
+    text-decoration: none !important;
+    background: crimson;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 26px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.home .home-content a:hover{
+    color: #fff;
+    background: none;
+}
 /*responsive media start*/
 
 @media (max-width: 941){
@@ -112,11 +151,15 @@ header {
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: 0;
+        left: -100%;
         top: 0;
-        background: rgba(46, 46, 46, 0.9);
+        background: #000;
         text-align: center;
         padding-top: 80px;
+    }
+
+    .navbar .menu.active{
+        left: -0;
     }
     .navbar .menu li{
         display: block;
