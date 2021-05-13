@@ -1,203 +1,230 @@
 <!DOCTYPE html>
 
-<html lang = "en">
-    <head>
-        <link rel = "stylesheet" type = "text/css" href="vendors/css/normalize.css">
-        <link rel = "stylesheet" type = "text/css" href="vendors/css/grid.css">
-        <link rel = "stylesheet" type = "text/css" href = "resources/css/style.css"
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<html lang="en">
+  <meta charset="utf-8" />
+  <head>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/368ab845fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <title> My Portfolio </title>
+    <title>My Portfolio</title>
+  </head>
 
+  <body>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo"><a href="#">Portfolio</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-    </head>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
 
-    <body>
+    <!--    home section-->
 
-        <nav class="navbar">
-            <div class="max-width">
-                <div class="logo"><a href = "#">Portfolio</a></div>
-                <ul class = "menu">
-                    <li><a href = "#">Home</a></li>
-                    <li><a href = "#">About</a></li>
-                    <li><a href = "#">Projects</a></li>
-                    <li><a href = "#">Experience</a></li>
-                    <li><a href = "#">Contact</a></li>
-                </ul>
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Michael Abreha</div>
+          <div class="text-3">And I am a Computer Science Student</div>
+          <a href="#">Resume</a>
+        </div>
+      </div>
+    </section>
 
-                <div class="menu-btn">
+    <!--    about section-->
 
-                    <i class="fas fa-bars"></i>
-                </div>
-
-             </div>
-        </nav>
-
-<!--    home section-->
-
-        <section class="home" id = "home">
-            <div class="max-width">
-                <div class="home-content">
-                    <div class = "text-1"> Hello, my name is</div>
-                    <div class = "text-2"> Michael Abreha</div>
-                    <div class = "text-3"> And I am a Computer Science Student</div>
-                    <a href ="#">Resume</a>
-
-
-
-                </div>
-
-
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src = resources/css/img/IMG_4874.png alt="">
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm Michael Abreha and I am a Computer Science Student.
             </div>
 
-        </section>
+            <p>
+              I go to the State University of New York College at Plattsburgh. I
+              am an international student from Ethiopia. I started school in
+              2017 and I will be graduating in May 2021. Over the past 4 years,
+              I have worked as an Academic Tutor at the ACC Learning Center, a
+              Resident Assistant for two and a half years at multiple resident
+              halls, and as an Assistant Technician at the Computer Help Desk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!--    about section-->
+    <!--    Experience section-->
 
-        <section class="about" id = "about">
-            <div class="max-width">
-                <h2 class = "title">About me</h2>
-                <div class="about-content">
+    <section class="experience" id="experience">
+      <div class="max-width">
+        <h2 class="title">Experience</h2>
+        <div class="experience-content">
+          <div class="column left">
+            <div class="text">My Skills and Experience</div>
 
-                    <div class = "column left">
+            <p>
+              I have experience in many different programming languages. I also
+              have experience in developing many projects and have also worked
+              as an intern at a big company in Washingtgon D.C.
+            </p>
 
-                        <img src = resources/css/img/IMG_4874.png alt="">
-
-                    </div>
-                    <div class = "column right">
-                        <div class = "text">I'm Michael Abreha and I am a Computer Science Student.</div>
-
-                        <p>I go to the State University of New York College at Plattsburgh. I am an international student from Ethiopia. I started school in 2017 and I will be graduating in May 2021. Over the past 4 years, I have worked as an Academic Tutor at the ACC Learning Center, a Resident Assistant for two and a half years at multiple resident halls, and as an Assistant Technician at the Computer Help Desk. </p>
-
-
-                    </div>
-                </div>
-
-
+            <a href="#">Read more</a>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span> HTML</span>
+                <span> 70%</span>
+              </div>
+              <div class="line html"></div>
             </div>
 
-        </section>
-
-
-<!--    Experience section-->
-
-        <section class="experience" id = "experience">
-            <div class="max-width">
-                <h2 class = "title">Experience</h2>
-                <div class="experience-content">
-                    <div class = "column left">
-                        <div class = "text">My Skills and Experience</div>
-
-                        <p>I have experience in many different programming languages. I also have experience in developing many projects and have also worked as an intern at a big company in Washingtgon D.C.</p>
-
-                        <a href = '#'>Read more</a>
-
-                    </div>
-                    <div class = "column right">
-
-                        <div class = "bars">
-
-                            <div class = "info">
-
-                                <span> HTML</span>
-                                <span> 70%</span>
-                            </div>
-                            <div class = "line html"></div>
-                        </div>
-
-                        <div class = "bars">
-
-                            <div class = "info">
-
-                                <span> CSS</span>
-                                <span> 60%</span>
-                            </div>
-                            <div class = "line css"></div>
-
-                        </div>
-
-                        <div class = "bars">
-
-                            <div class = "info">
-
-                                <span> JavaScript</span>
-                                <span> 50%</span>
-                            </div>
-                            <div class = "line js"></div>
-
-                        </div>
-
-                        <div class = "bars">
-
-                            <div class = "info">
-
-                                <span> Python</span>
-                                <span> 75%</span>
-                            </div>
-                            <div class = "line python"></div>
-
-                        </div>
-
-                        <div class = "bars">
-
-                            <div class = "info">
-
-                                <span> MYSQL</span>
-                                <span> 55%</span>
-                            </div>
-                            <div class = "line mysql"></div>
-
-                        </div>
-
-                        <div class = "bars">
-
-                            <div class = "info">
-
-                                <span> C++</span>
-                                <span> 40%</span>
-                            </div>
-                            <div class = "line cplusplus"></div>
-
-                        </div>
-                    </div>
-                </div>
-
-
+            <div class="bars">
+              <div class="info">
+                <span> CSS</span>
+                <span> 60%</span>
+              </div>
+              <div class="line css"></div>
             </div>
 
-        </section>
+            <div class="bars">
+              <div class="info">
+                <span> JavaScript</span>
+                <span> 50%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
 
-<!--        contact section-->
-        <section class = "contact" id = "contact">
+            <div class="bars">
+              <div class="info">
+                <span> Python</span>
+                <span> 75%</span>
+              </div>
+              <div class="line python"></div>
+            </div>
 
-            <div class = "max-width">
-                <h2 class = "title">Contact me</h2>
-                <div class = "contact-content">
-                <div class = "column left">
-                <div class = "text">Get in Touch</div>
-                    <p>kjsdfkhjakghfkasjhkjhsafgkjhsfkjhajhkajh.kjasfhgkhsfjghkjgfshlkjahsfjkhafskjhgfskj.kjghaskhkshkjsdahgkhgskjashd.ksagdkjhskdajhgsakjhgsa.khbsajkhgkssdagggsa.gsdgjlsdgjkjgldjsljalksjdjgsdlgjlgkjlkjgdlkjglkjdsalkjglkjjgsdkljglkjsdjgdsl.jghashjgdlagsdkjlkgdsjlkjdsglkjgkgjlkjgdslkjglkjdlgkjlkgdja.</p>
+            <div class="bars">
+              <div class="info">
+                <span> MYSQL</span>
+                <span> 55%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
 
-                    <div class = "icons">
+            <div class="bars">
+              <div class="info">
+                <span> C++</span>
+                <span> 40%</span>
+              </div>
+              <div class="line cplusplus"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                        <div class = "row">
+    <!--        contact section-->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Get in Touch</div>
+            <p>
+                Hi there, you can contact me and ask me questions. Looking forward to your questions and I will reply back as soon as I can.
+            </p>
 
-                        <i class = "fas fa-user"></i>
-                            <div class = "info">
-
-                            <div class = "head">Name</div>
-                                <div class = "sub-title">Michael Abreha</div>
-                            </div>
-                        </div>
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Michael Abreha</div>
+                </div>
+              </div>
+              <div class="icons">
+                <div class="row">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="info">
+                    <div class="head">Address</div>
+                    <div class="sub-title">Norfolk, Virginia</div>
+                  </div>
+                </div>
+                <div class="icons">
+                    <div class="row">
+                      <i class="fas fa-envelope"></i>
+                      <div class="info">
+                        <div class="head">Email</div>
+                        <div class="sub-title">michaelmeles7@gmail.com</div>
+                      </div>
                     </div>
+            </div>
+          </div>
+          <div class = "column right">
+            <div class = "text">Message me</div>
+            <form action = "#">
+                <div class = "fields">
+                    <div class = "field name">
+                    <input type = "text" placeholder="Name" required>
+                </div>
+                <div class = "field email">
+                    <input type = "email" placeholder="Email" required>
                 </div>
             </div>
+                    <div class = "field">
+                        <input type = "text" placeholder="Subject" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Describe project..." required></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Send message</button>
+                    </div>
             </div>
-        </section>
+            </form>
 
-    <script src="script.js"></script>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </body>
+    <!-- footer section start -->
 
+    <footer>
+        <span>Created By <a href = '#'>Michael Abreha</a> | <span class = 'far fa-copyright'></span> 2021 All rights reserved.</span>
+
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
 </html>
